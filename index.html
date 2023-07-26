@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+  <style>
+    model-viewer {
+      width: 800px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Heading</h1>
+  <p>Insert any text you want<p>
+  <model-viewer
+src="https://lrnmiracle2.github.io/glb-with-text/STEP1.glb"
+  camera-controls
+  autoplay>
+    <button class="Hotspot" slot="hotspot-1" data-surface="3 0 9 12 16 0.533 0.206 0.262" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Battery</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="1 0 824 816 826 0.264 0.610 0.126" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Magnets</div>
+    </button>
+</model-viewer>
+
+</body>
+</html>
